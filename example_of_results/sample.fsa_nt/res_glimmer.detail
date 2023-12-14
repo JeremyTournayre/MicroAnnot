@@ -1,0 +1,29 @@
+Command:  /var/www/MicroAnnot_2/scripts/tools/glimmer3.02/bin/glimmer3 -X -A atg -l -o 10 -g 300 -t 30 output/sample.fsa_nt/sample.fsa_nt /var/www/MicroAnnot_2/db/db_ref_Glimmer/A_algerae_complete_CDS.icm output/sample.fsa_nt/res_glimmer
+
+Sequence file = output/sample.fsa_nt/sample.fsa_nt
+Number of sequences = 1
+ICM model file = /var/www/MicroAnnot_2/db/db_ref_Glimmer/A_algerae_complete_CDS.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = false
+Truncated orfs = true
+Minimum gene length = 300 bp
+Maximum overlap bases = 10
+Threshold score = 30
+Use first start codon = false
+Start codons = atg
+Start probs = 1.000
+Stop codons = taa,tag,tga
+GC percentage = 34.2%
+Ignore score on orfs longer than 491
+
+
+>1
+Sequence length = 1244
+
+           ----- Start -----           --- Length ----  ------------- Scores -------------
+ ID  Frame   of Orf  of Gene     Stop   of Orf of Gene      Raw InFrm F1 F2 F3 R1 R2 R3 NC
+0001    -1     1062     1038      526      534     510   -11.10     0  0  -  -  0  -  - 99
+0002    +1      439      460     1122      681     660    -4.01     0  0  -  -  -  -  - 99

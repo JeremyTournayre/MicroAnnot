@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interproscan-version="5.60-92.0">
+  <protein>
+    <sequence md5="f11dd83a280921e5847766d09a22fcf0">MDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKRRKDVSKLLRGRGVDLDDLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMELKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIPSMKGKLGSLGIID</sequence>
+    <xref id="592-1122" name="592-1122"/>
+    <matches>
+      <fingerprints-match evalue="4.6E-5" graphscan="II...">
+        <signature ac="PR02008" desc="RNA (C5-cytosine) methyltransferase signature" name="RCMTFAMILY">
+          <entry ac="IPR023267" desc="RNA (C5-cytosine) methyltransferase" name="RCMT" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0001510" name="RNA methylation"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR02008</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="2" pvalue="5.07E-8" score="75.64" start="112" end="122">
+            <location-fragments>
+              <fingerprints-location-fragment start="112" end="122" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="1" pvalue="2.81E-4" score="30.51" start="83" end="97">
+            <location-fragments>
+              <fingerprints-location-fragment start="83" end="97" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer3-match evalue="1.6E-22" score="81.5">
+        <signature ac="G3DSA:3.30.70.1170" name="Sun protein; domain 3">
+          <signature-library-release library="GENE3D" version="4.3.0"/>
+        </signature>
+        <model-ac>1ixkA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="96" env-start="2" post-processed="true" score="81.0" evalue="2.2E-22" hmm-start="16" hmm-end="107" hmm-length="107" hmm-bounds="N_TERMINAL_COMPLETE" start="2" end="94">
+            <location-fragments>
+              <hmmer3-location-fragment start="2" end="94" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.0E-18" score="69.4">
+        <signature ac="G3DSA:3.40.50.150" name="Vaccinia Virus protein VP39">
+          <entry ac="IPR029063" desc="S-adenosyl-L-methionine-dependent methyltransferase superfamily" name="SAM-dependent_MTases_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.3.0"/>
+        </signature>
+        <model-ac>2b9eA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="152" env-start="92" post-processed="true" score="68.8" evalue="1.5E-18" hmm-start="1" hmm-end="55" hmm-length="223" hmm-bounds="C_TERMINAL_COMPLETE" start="95" end="152">
+            <location-fragments>
+              <hmmer3-location-fragment start="95" end="152" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.4E-14" score="51.7">
+        <signature ac="PF01189" desc="16S rRNA methyltransferase RsmB/F" name="Methyltr_RsmB-F">
+          <entry ac="IPR001678" desc="SAM-dependent methyltransferase RsmB/NOP2-type" name="MeTrfase_RsmB/NOP2" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008168" name="methyltransferase activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="35.0"/>
+        </signature>
+        <model-ac>PF01189</model-ac>
+        <locations>
+          <hmmer3-location env-end="154" env-start="100" post-processed="true" score="50.4" evalue="2.0E-13" hmm-start="4" hmm-end="47" hmm-length="200" hmm-bounds="INCOMPLETE" start="103" end="146">
+            <location-fragments>
+              <hmmer3-location-fragment start="103" end="146" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.3E-11" score="44.8">
+        <signature ac="PF17125" desc="N-terminal domain of 16S rRNA methyltransferase RsmF" name="Methyltr_RsmF_N">
+          <entry ac="IPR031341" desc="Ribosomal RNA small subunit methyltransferase F, N-terminal" name="Methyltr_RsmF_N" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="35.0"/>
+        </signature>
+        <model-ac>PF17125</model-ac>
+        <locations>
+          <hmmer3-location env-end="97" env-start="5" post-processed="true" score="44.1" evalue="2.1E-11" hmm-start="5" hmm-end="91" hmm-length="91" hmm-bounds="C_TERMINAL_COMPLETE" start="8" end="97">
+            <location-fragments>
+              <hmmer3-location-fragment start="8" end="97" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match ac="PTHR22807:SF30" evalue="1.5E-42" graft-point="PTN000515974" name="28S RRNA (CYTOSINE(4447)-C(5))-METHYLTRANSFERASE-RELATED" protein-class="PC00033" score="158.0">
+        <signature ac="PTHR22807" name="NOP2 YEAST -RELATED NOL1/NOP2/FMU SUN  DOMAIN-CONTAINING">
+          <entry ac="IPR023267" desc="RNA (C5-cytosine) methyltransferase" name="RCMT" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0001510" name="RNA methylation"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="17.0"/>
+        </signature>
+        <model-ac>PTHR22807:SF30</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="149" hmm-start="99" hmm-end="242" hmm-length="0" hmm-bounds="INCOMPLETE" start="3" end="146">
+            <location-fragments>
+              <panther-location-fragment start="3" end="146" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+        <go-xref db="GO" id="GO:0022613"/>
+        <go-xref db="GO" id="GO:0043226"/>
+        <go-xref db="GO" id="GO:0009987"/>
+        <go-xref db="GO" id="GO:0043229"/>
+        <go-xref db="GO" id="GO:0016740"/>
+        <go-xref db="GO" id="GO:0043170"/>
+        <go-xref db="GO" id="GO:0016070"/>
+        <go-xref db="GO" id="GO:0070013"/>
+        <go-xref db="GO" id="GO:0034470"/>
+        <go-xref db="GO" id="GO:0070475"/>
+        <go-xref db="GO" id="GO:0010467"/>
+        <go-xref db="GO" id="GO:0046483"/>
+        <go-xref db="GO" id="GO:0071840"/>
+        <go-xref db="GO" id="GO:0110165"/>
+        <go-xref db="GO" id="GO:0008152"/>
+        <go-xref db="GO" id="GO:0005730"/>
+        <go-xref db="GO" id="GO:0000470"/>
+        <go-xref db="GO" id="GO:0042254"/>
+        <go-xref db="GO" id="GO:0031981"/>
+        <go-xref db="GO" id="GO:0044238"/>
+        <go-xref db="GO" id="GO:0042273"/>
+        <go-xref db="GO" id="GO:0043412"/>
+        <go-xref db="GO" id="GO:0008173"/>
+        <go-xref db="GO" id="GO:0034660"/>
+        <go-xref db="GO" id="GO:0044237"/>
+        <go-xref db="GO" id="GO:0140640"/>
+        <go-xref db="GO" id="GO:0043233"/>
+        <go-xref db="GO" id="GO:0005634"/>
+        <go-xref db="GO" id="GO:0005622"/>
+        <go-xref db="GO" id="GO:0001510"/>
+        <go-xref db="GO" id="GO:0006807"/>
+        <go-xref db="GO" id="GO:0043232"/>
+        <go-xref db="GO" id="GO:0032259"/>
+        <go-xref db="GO" id="GO:0043414"/>
+        <go-xref db="GO" id="GO:0016020"/>
+        <go-xref db="GO" id="GO:0090304"/>
+        <go-xref db="GO" id="GO:0043231"/>
+        <go-xref db="GO" id="GO:0008757"/>
+        <go-xref db="GO" id="GO:1901360"/>
+        <go-xref db="GO" id="GO:0006139"/>
+        <go-xref db="GO" id="GO:0000154"/>
+        <go-xref db="GO" id="GO:0071704"/>
+        <go-xref db="GO" id="GO:0031167"/>
+        <go-xref db="GO" id="GO:0140098"/>
+        <go-xref db="GO" id="GO:0006396"/>
+        <go-xref db="GO" id="GO:0031974"/>
+        <go-xref db="GO" id="GO:0006725"/>
+        <go-xref db="GO" id="GO:0044260"/>
+        <go-xref db="GO" id="GO:0016741"/>
+        <go-xref db="GO" id="GO:0009451"/>
+        <go-xref db="GO" id="GO:0016072"/>
+        <go-xref db="GO" id="GO:0008168"/>
+        <go-xref db="GO" id="GO:0034641"/>
+        <go-xref db="GO" id="GO:0043227"/>
+        <go-xref db="GO" id="GO:0006364"/>
+        <go-xref db="GO" id="GO:0044085"/>
+        <go-xref db="GO" id="GO:0043228"/>
+        <go-xref db="GO" id="GO:0003824"/>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS51686" desc="SAM-dependent MTase RsmB/NOP-type domain profile." name="SAM_MT_RSMB_NOP">
+          <entry ac="IPR001678" desc="SAM-dependent methyltransferase RsmB/NOP2-type" name="MeTrfase_RsmB/NOP2" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008168" name="methyltransferase activity"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2022_01"/>
+        </signature>
+        <model-ac>PS51686</model-ac>
+        <locations>
+          <profilescan-location score="27.48098" start="24" end="176">
+            <location-fragments>
+              <profilescan-location-fragment start="24" end="176" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>FIEESEKQRPTTIRINTLLKRRKDVSKLLRGRGVDLDDLSWIDSG-------CVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMELKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIPSMKGKlgslgiiD-----------------------------------------------------------------------------------------------------------------------------------------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <superfamilyhmmer3-match evalue="2.3E-26">
+        <signature ac="SSF53335" name="S-adenosyl-L-methionine-dependent methyltransferases">
+          <entry ac="IPR029063" desc="S-adenosyl-L-methionine-dependent methyltransferase superfamily" name="SAM-dependent_MTases_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0047465</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="313" start="2" end="146">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="2" end="146" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

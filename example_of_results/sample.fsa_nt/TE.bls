@@ -1,0 +1,41 @@
+TBLASTX 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../db/db_blast/ConsensusTE.txt
+           1,167 sequences; 1,219,435 total letters
+
+
+
+Query= 592-1122
+
+Length=528
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.229   0.0926    0.251 
+
+
+Effective search space used: 41902120
+
+
+  Database: ../db/db_blast/ConsensusTE.txt
+    Posted date:  Jul 27, 2023  1:16 PM
+  Number of letters in database: 1,219,435
+  Number of sequences in database:  1,167
+
+
+
+Matrix: BLOSUM45
+Neighboring words threshold: 16
+Window for multiple hits: 60

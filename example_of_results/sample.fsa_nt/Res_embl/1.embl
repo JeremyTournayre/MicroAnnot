@@ -1,0 +1,46 @@
+ID   1; SV 1; linear; unassigned DNA; STD; UNC; 1244 BP.
+XX
+AC   unknown;
+XX
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   tRNA            424..498
+FT                   /note="tRNA found by tRNAscan-SE"
+FT                   /note_warning="0"
+FT   CDS             592..1122
+FT                   /evalue="3e-99"
+FT                   /hit="AL391737:c(125625-126545)"
+FT                   /note="Alignment starting with M"
+FT                   /note_warning="0"
+FT                   /translation="MDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKRR
+FT                   KDVSKLLRGRGVDLDDLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNME
+FT                   LKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIP
+FT                   SMKGKLGSLGIID"
+FT   tRNA            1108..1182
+FT                   /note="tRNA found by tRNAscan-SE"
+FT                   /note_warning="0"
+XX
+SQ   Sequence 1244 BP; 400 A; 178 C; 248 G; 418 T; 0 other;
+     ttaaaagtaa cacaccagaa agacaattat tttaaccaat atgttttata catatatttc        60
+     ttttttaaat tagaacatat ttaaaaaact taaaattaat tttttatgta taatttgtaa       120
+     gaatcttttt taagattagt ctaagatatc tttaatttgt gtttattgta aggtataaag       180
+     ccgtcattca cttgaataaa agtgttgggg ttgtacatct ctatatttag gcgtgtctcg       240
+     attagctggc attattaatc tttgtttgta taacaaaaaa gattaatcgt gatttgtttt       300
+     aaaaatacaa ttacttgata agaatcttaa ggcaatgttt tgaaagatta ttatgctttt       360
+     catataccat acaatatata taagccccta agggtttata tcccttcaat gaaggggtaa       420
+     cttgggatca tagattaatt ggtaaatctt tcgctttgca tgcgaacaat atcggttcaa       480
+     ttccgattga ttccaatatt ttatgtatta attaatatgc ttaaattaaa taatcaaatg       540
+     atgaatcttt ccaatattta tgttgaaaaa gaatctatta taagaacagg tatggatacg       600
+     tacaacgaat atcttctgga aaagatatgc gagttgtttc cgcgcaaaga agcagaggtt       660
+     tttatagagg aaagtgaaaa gcagaggccg acgaccatac gaataaacac tcttctgaag       720
+     cgcagaaaag atgtttcgaa gcttttgcgg ggaagggggg tggatcttga cgatcttagc       780
+     tggattgata gcggatgtgt gatcttcaag tcgtctgtgc ctattggggc aactcccgaa       840
+     tatcttgcgg ggtactattg tcttcaaggg gctgcatcga tgcttcctgt ccttaatatg       900
+     gagctgaagg aaggcctgag tgttgttgac ctgtgtgcgg cgcccggagg aaaaacaacg       960
+     cacattgcag cattgatgga gaatacaggg gtgatttatg caaatgatgt gaatgaggag      1020
+     aggattgcag gatttcatat accatacaat atatataagc ccctaagggt ttatatccct      1080
+     tcaatgaagg ggaaacttgg gtcacttggg atcatagatt aattggtaaa tctttcgctt      1140
+     tgcatgcgaa caatatcggt tcaattccga ttgattccaa tattttatgt attaattaat      1200
+     atgcttaaat taaataatac tgactgactg aattcgcatt tgca                       1244
+//

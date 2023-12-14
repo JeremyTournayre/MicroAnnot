@@ -1,0 +1,57 @@
+LOCUS       1                       1244 bp    DNA     linear   UNK 
+ACCESSION   unknown
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     tRNA            424..498
+                     /note="tRNA found by tRNAscan-SE"
+                     /note_warning="0"
+     CDS             592..1122
+                     /db_xref="GO:0001510"
+                     /db_xref="GO:0008168"
+                     /db_xref="IPR001678"
+                     /db_xref="IPR023267"
+                     /db_xref="IPR029063"
+                     /db_xref="IPR031341"
+                     /evalue="3e-99"
+                     /function="RNA (C5-cytosine) methyltransferase"
+                     /function="RNA methylation"
+                     /function="Ribosomal RNA small subunit methyltransferase
+                     F, N-terminal"
+                     /function="S-adenosyl-L-methionine-dependent
+                     methyltransferase superfamily"
+                     /function="SAM-dependent methyltransferase
+                     RsmB/NOP2-type"
+                     /function="methyltransferase activity"
+                     /hit="AL391737:c(125625-126545)"
+                     /note="Alignment starting with M"
+                     /note_warning="0"
+                     /translation="MDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKR
+                     RKDVSKLLRGRGVDLDDLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLN
+                     MELKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRV
+                     YIPSMKGKLGSLGIID"
+     tRNA            1108..1182
+                     /note="tRNA found by tRNAscan-SE"
+                     /note_warning="0"
+ORIGIN      
+        1 ttaaaagtaa cacaccagaa agacaattat tttaaccaat atgttttata catatatttc
+       61 ttttttaaat tagaacatat ttaaaaaact taaaattaat tttttatgta taatttgtaa
+      121 gaatcttttt taagattagt ctaagatatc tttaatttgt gtttattgta aggtataaag
+      181 ccgtcattca cttgaataaa agtgttgggg ttgtacatct ctatatttag gcgtgtctcg
+      241 attagctggc attattaatc tttgtttgta taacaaaaaa gattaatcgt gatttgtttt
+      301 aaaaatacaa ttacttgata agaatcttaa ggcaatgttt tgaaagatta ttatgctttt
+      361 catataccat acaatatata taagccccta agggtttata tcccttcaat gaaggggtaa
+      421 cttgggatca tagattaatt ggtaaatctt tcgctttgca tgcgaacaat atcggttcaa
+      481 ttccgattga ttccaatatt ttatgtatta attaatatgc ttaaattaaa taatcaaatg
+      541 atgaatcttt ccaatattta tgttgaaaaa gaatctatta taagaacagg tatggatacg
+      601 tacaacgaat atcttctgga aaagatatgc gagttgtttc cgcgcaaaga agcagaggtt
+      661 tttatagagg aaagtgaaaa gcagaggccg acgaccatac gaataaacac tcttctgaag
+      721 cgcagaaaag atgtttcgaa gcttttgcgg ggaagggggg tggatcttga cgatcttagc
+      781 tggattgata gcggatgtgt gatcttcaag tcgtctgtgc ctattggggc aactcccgaa
+      841 tatcttgcgg ggtactattg tcttcaaggg gctgcatcga tgcttcctgt ccttaatatg
+      901 gagctgaagg aaggcctgag tgttgttgac ctgtgtgcgg cgcccggagg aaaaacaacg
+      961 cacattgcag cattgatgga gaatacaggg gtgatttatg caaatgatgt gaatgaggag
+     1021 aggattgcag gatttcatat accatacaat atatataagc ccctaagggt ttatatccct
+     1081 tcaatgaagg ggaaacttgg gtcacttggg atcatagatt aattggtaaa tctttcgctt
+     1141 tgcatgcgaa caatatcggt tcaattccga ttgattccaa tattttatgt attaattaat
+     1201 atgcttaaat taaataatac tgactgactg aattcgcatt tgca
+//

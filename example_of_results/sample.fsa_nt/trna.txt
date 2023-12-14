@@ -1,0 +1,5 @@
+Sequence		tRNA	Bounds	tRNA	Anti	Intron Bounds	Inf	      
+Name    	tRNA #	Begin	End 	Type	Codon	Begin	End	Score	Note
+--------	------	-----	------	----	-----	-----	----	------	------
+1       	1	424 	495 	Ala	TGC	0	0	52.5	
+1       	2	1108	1179	Ala	TGC	0	0	52.5	

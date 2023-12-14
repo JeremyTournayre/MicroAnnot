@@ -22,6 +22,7 @@ my $list_dat_id=$ARGV[10];
 my $dir_blast=$ARGV[11]; #with the /bin
 my $dir_db=$ARGV[12];
 my $dir_glimmer=$ARGV[13]; #with the /bin
+my $dir_interproscan=$ARGV[14];
 
 if ($min_orf_size eq "" ){
 	$min_orf_size=240;
@@ -50,7 +51,7 @@ $learn_Glim_orf_file_icm=$dir_db."/db_ref_Glimmer/".$learn_Glim_orf_file_icm;
 if (!-e $learn_Glim_orf_file_icm){
 	$learn_Glim_orf_file_icm=~m/(.*)\.icm$/;
 	my $learn_Glim_orf_file=$1;
-	#Please ask to jeremy.tournayre@inrae.fr to have the databases
+	
 	`$dir_glimmer/build-icm -r $learn_Glim_orf_file_icm < $learn_Glim_orf_file`;
 }
 
@@ -616,7 +617,7 @@ sub annot_alignment_small {
 
 ############CDS alignment
 $list_dat_name=~s/ /\./g;
-#Please ask to jeremy.tournayre@inrae.fr to have the databases
+
 my $db_blast_CDS="Proteomes_".$list_dat_name.".txt";
 if (!-e "$dir_db/db_blast/".$db_blast_CDS.".pdb"){
 	my @split=split(",",$list_dat_name);
@@ -642,7 +643,7 @@ while ($result = $Ech->next_result){
 }
 ############Small CDS
 my $file_small_bls=$new_dir_o."/small.bls";
-#Please ask to jeremy.tournayre@inrae.fr to have the databases
+
 if (!-e "$dir_db/small_db/small_db.fa.pdb"){
 	`$dir_blast/makeblastdb -in $dir_db/small_db/small_db.fa -out $dir_db/small_db/small_db.fa  -dbtype prot`;
 }
@@ -843,7 +844,7 @@ close (F);
 
 ############Ribosomal RNA
 my $rRNA_bls=$new_dir_o."/rRNA.bls";
-#Please ask to jeremy.tournayre@inrae.fr to have the databases
+
 if (!-e "$dir_db/db_blast/16S_rRNA.txt.nin"){
 	`$dir_blast/makeblastdb -in $dir_db/db_blast/16S_rRNA.txt -out $dir_db/db_blast/16S_rRNA.txt  -dbtype nucl`;
 }
@@ -1671,7 +1672,7 @@ close(FILE_CDS_GENE_NT);
 my $file_CDS_aa=$new_dir_o."/CDS_aa.fa";
 my $TE_bls=$new_dir_o."/TE.bls";
 
-#Please ask to jeremy.tournayre@inrae.fr to have the databases
+
 if (!-e "$dir_db/db_blast/ConsensusTE.txt.nin"){
 	`$dir_blast/makeblastdb -in $dir_db/db_blast/ConsensusTE.txt -out $dir_db/db_blast/ConsensusTE.txt  -dbtype nucl`;
 }
@@ -1703,7 +1704,7 @@ if (-e $dir_interpro){
 }
 `mkdir $dir_interpro`;
 if ($bool_interpro){
-	`/my_interproscan/interproscan-5.60-92.0/interproscan.sh --goterms --iprlookup --output-dir $dir_interpro -i $file_CDS_aa -f xml`;
+	`$dir_interproscan/interproscan.sh --goterms --iprlookup --output-dir $dir_interpro -i $file_CDS_aa -f xml`;
 }
 
 my %id_2_interproscan;

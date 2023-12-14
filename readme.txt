@@ -16,7 +16,7 @@
 # foreach my $tag (keys %{ $fth->field } ) {
 	
 # 'eq' instead of '==' on row 350 on Simple.pm (usr/share/perl5/Bio/Location)
-
+-Please ask to jeremy.tournayre@inrae.fr to have the databases
 
 >Use of the microannot.pl script:
 perl microannot.pl input_file learn_Glim_orf_file_icm min_orf_size bool_interpro evalue_alignment evalue_small evalue_TE glimmer_size debug list_dat_name list_dat_id dir_blast dir_db dir_glimmer

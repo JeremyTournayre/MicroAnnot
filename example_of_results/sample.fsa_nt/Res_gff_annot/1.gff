@@ -1,0 +1,4 @@
+#1
+1	EMBL/GenBank/SwissProt	tRNA	424	498	.	+	.	note "tRNA found by tRNAscan-SE"  ; note_warning 0
+1	EMBL/GenBank/SwissProt	CDS	592	1122	.	+	.	db_xref "GO:0001510"  "GO:0008168"  IPR001678 IPR023267 IPR029063 IPR031341 ; evalue "3e-99"  ; function "RNA (C5-cytosine) methyltransferase"  "RNA methylation"  "Ribosomal RNA small subunit methyltransferase F, N-terminal"  "S-adenosyl-L-methionine-dependent methyltransferase superfamily"  "SAM-dependent methyltransferase RsmB/NOP2-type"  "methyltransferase activity"  ; hit "AL391737:c(125625-126545)"  ; note "Alignment starting with M"  ; note_warning 0 ; translation MDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKRRKDVSKLLRGRGVDLDDLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMELKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIPSMKGKLGSLGIID
+1	EMBL/GenBank/SwissProt	tRNA	1108	1182	.	+	.	note "tRNA found by tRNAscan-SE"  ; note_warning 0

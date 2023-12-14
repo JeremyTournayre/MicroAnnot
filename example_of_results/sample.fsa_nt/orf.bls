@@ -1,0 +1,151 @@
+BLASTP 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../db/db_blast/Proteomes_A.algerae,E.cuniculi,E.bieneusi.txt
+           5,335 sequences; 1,674,440 total letters
+
+
+
+Query= 1_orf_+1_439-1119
+
+Length=227
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AL391737:c(125625-126545) complete cds                                285     3e-99
+ABGB01000014:103260-104195 complete cds                               200     4e-66
+KI0ABA22YD05FM1:c(1374-2399) complete cds                             130     1e-38
+
+
+>AL391737:c(125625-126545) complete cds;
+Length=306
+
+ Score = 285 bits (996),  Expect = 3e-99, Method: Compositional matrix adjust.
+ Identities = 138/176 (78%), Positives = 150/176 (85%), Gaps = 0/176 (0%)
+
+Query  52   MDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKRRKDVSKLLRGRGVDLD  111
+            M+TYNEYLLEKICE+FPRKE E FIEESEKQRP TIRINTLLK RKDV KLL GRGVDLD
+Sbjct  1    METYNEYLLEKICEIFPRKEVEAFIEESEKQRPMTIRINTLLKGRKDVLKLLSGRGVDLD  60
+
+Query  112  DLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMELKEGLSVVDLCAAPGG  171
+             LSW DSGCV+FKSSVPIGATPEYLAGYYCLQGAASMLPVLNM+LKEGL+VVDLCAAPGG
+Sbjct  61   ALSWTDSGCVVFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMDLKEGLTVVDLCAAPGG  120
+
+Query  172  KTTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIPSMKGKLGSLGIID  227
+            KTTHIAALMENTGVIYANDVNEERIAG+             + +M G+  ++G +D
+Sbjct  121  KTTHIAALMENTGVIYANDVNEERIAGLKSNIQRMGVRNCIVMNMDGRKVNVGRVD  176
+
+
+>ABGB01000014:103260-104195 complete cds;
+Length=311
+
+ Score = 200 bits (695),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 93/175 (53%), Positives = 127/175 (73%), Gaps = 0/175 (0%)
+
+Query  53   DTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINTLLKRRKDVSKLLRGRGVDLDD  112
+            ++YNE+LL KI E+FP+KE EVF++ +EK+RP  +R+NT+LKRRKD+  LL  R V+++ 
+Sbjct  7    ESYNEFLLTKIKEIFPKKEVEVFLDANEKKRPIILRVNTMLKRRKDILNLLYQRKVEMEK  66
+
+Query  113  LSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPVLNMELKEGLSVVDLCAAPGGK  172
+            L W + G + F S+VP+GATPEYLAGYY +Q A S LPVLN+EL   L+VVDLCAAPGGK
+Sbjct  67   LEWCEEGIIAFSSAVPLGATPEYLAGYYIVQSANSFLPVLNLELNNDLTVVDLCAAPGGK  126
+
+Query  173  TTHIAALMENTGVIYANDVNEERIAGFHIPYNIYKPLRVYIPSMKGKLGSLGIID  227
+            TTHIAA+M NTG++YAN++ +ER   +             I +M  KL ++G +D
+Sbjct  127  TTHIAAIMNNTGIVYANEICKERTYALRSNIQRMGFTNCIITNMDAKLFNIGKVD  181
+
+
+>KI0ABA22YD05FM1:c(1374-2399) complete cds;
+Length=341
+
+ Score = 130 bits (446),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 69/173 (40%), Positives = 104/173 (60%), Gaps = 0/173 (0%)
+
+Query  32   NQMMNLSNIYVEKESIIRTGMDTYNEYLLEKICELFPRKEAEVFIEESEKQRPTTIRINT  91
+            N++  +S   + +E  I       N +LL K+  +FP+ E + F++ES  +RP  IR NT
+Sbjct  9    NEISEVSEENIPEEVEILEDGSPINMFLLNKLKLIFPKDEHKHFLKESLNHRPMIIRTNT  68
+
+Query  92   LLKRRKDVSKLLRGRGVDLDDLSWIDSGCVIFKSSVPIGATPEYLAGYYCLQGAASMLPV  151
+            L  R   + KLL  RGV L+ L +     +++KS VP+GATPEYLAGYY LQG AS LPV
+Sbjct  69   LKIRPSALFKLLNARGVSLEPLYFYKGAFIVYKSPVPMGATPEYLAGYYVLQGGASFLPV  128
+
+Query  152  LNMELKEGLSVVDLCAAPGGKTTHIAALMENTGVIYANDVNEERIAGFHIPYN  204
+            L +++    S +D+C++PG K   I+ ++     + ANDVN+ER+  +   +N
+Sbjct  129  LALDVSPEDSCLDMCSSPGLKACFISTFLSKEXYLVANDVNKERMYSLKSNFN  181
+
+
+
+Lambda      K        H        a         alpha
+   0.234   0.0971    0.253    0.911     9.61 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.195   0.0320    0.100     1.90     60.7     61.1 
+
+Effective search space used: 123845800
+
+
+Query= 1_orf_-1_391-684
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.231   0.0939    0.240    0.911     9.61 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.195   0.0320    0.100     1.90     60.7     61.1 
+
+Effective search space used: 53027325
+
+
+Query= 1_orf_-3_183-716
+
+Length=178
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.239    0.101    0.306    0.911     9.61 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.195   0.0320    0.100     1.90     60.7     61.1 
+
+Effective search space used: 78355245
+
+
+  Database: ../db/db_blast/Proteomes_A.algerae,E.cuniculi,E.bieneusi.txt
+    Posted date:  Nov 21, 2022  1:11 PM
+  Number of letters in database: 1,674,440
+  Number of sequences in database:  5,335
+
+
+
+Matrix: BLOSUM45
+Gap Penalties: Existence: 14, Extension: 2
+Neighboring words threshold: 14
+Window for multiple hits: 60
