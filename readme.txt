@@ -38,7 +38,7 @@ dir_glimmer: Path of the /glimmer3.02/bin directory
 
 
 >Example of an execution of this script with the sample: input/sample.fsa_nt
-perl microannot.pl input/sample.fsa_nt A_algerae_complete_CDS.icm 240 1 -15 -5 -10 300 1 'A algerae,E bieneusi,E cuniculi,N ceranae' 0 ./tools/ncbi-blast-2.13.0+/bin ./db ./tools/glimmer3.02/bin
+perl microannot.pl input/sample.fsa_nt A_algerae_complete_CDS.icm 240 1 -15 -5 -10 300 1 'A algerae,E bieneusi,E cuniculi,N ceranae' 0 ./tools/ncbi-blast-2.13.0+/bin ./db ./tools/glimmer3.02/bin /interproscan-5.60-92.0
 
 >Contents of the results directory:
 
